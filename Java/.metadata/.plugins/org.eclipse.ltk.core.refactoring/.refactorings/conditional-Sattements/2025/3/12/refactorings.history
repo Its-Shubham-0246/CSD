@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void performOPerationUsingNestedIfElse(int number1, int number2, int choice)&apos; from &apos;conditional_Statements.conditions.main(...)&apos; to &apos;conditional_Statements.conditions&apos;&#x0D;&#x0A;- Original project: &apos;conditional-Sattements&apos;&#x0D;&#x0A;- Method name: &apos;performOPerationUsingNestedIfElse&apos;&#x0D;&#x0A;- Destination type: &apos;conditional_Statements.conditions&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;performOPerationUsingNestedIfElse&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;conditional_Statements{conditions.java" name="performOPerationUsingNestedIfElse" replace="false" selection="611 500" stamp="1742292879270" version="1.0" visibility="2"/>
+</session>

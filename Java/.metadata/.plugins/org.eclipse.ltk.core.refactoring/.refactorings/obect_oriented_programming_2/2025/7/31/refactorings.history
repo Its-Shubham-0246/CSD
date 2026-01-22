@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;obect_oriented_programming_2.Animal&apos; to &apos;AnimalRunner&apos;&#x0D;&#x0A;- Original project: &apos;obect_oriented_programming_2&apos;&#x0D;&#x0A;- Original element: &apos;obect_oriented_programming_2.Animal&apos;&#x0D;&#x0A;- Renamed element: &apos;obect_oriented_programming_2.AnimalRunner&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Animal&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;obect_oriented_programming_2{Animal.java[Animal" matchStrategy="1" name="AnimalRunner" qualified="false" references="true" similarDeclarations="false" stamp="1753694353920" textual="false" version="1.0"/>
+</session>

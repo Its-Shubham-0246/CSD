@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class TryWIthResourcesRunner {
+	public static void main(String[] args) {
+		try (Scanner sc = new Scanner(System.in)) {
+			int[] numbers = { 1, 3, 5, 2, 7, 9 };
+			int number = numbers[5];
+		}
+	}
+}

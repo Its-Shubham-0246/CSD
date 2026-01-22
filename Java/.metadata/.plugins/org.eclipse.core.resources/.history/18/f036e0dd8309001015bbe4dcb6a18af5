@@ -1,0 +1,16 @@
+package LoopStatement;
+
+import java.util.Scanner;
+public class WhileNumberPlayerRunner {
+public static void main(String[] args) {
+	WhileNumberPlayer player=new WhileNumberPlayer(30);
+	player.printSquareUptoLimit();
+	player.printCubeUptoLimit();
+	Scanner scanner = new Scanner(System.in);
+	int number;
+	do {
+		number = scanner.nextInt();
+	} while (number >= 0);
+}
+
+}

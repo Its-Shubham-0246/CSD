@@ -1,0 +1,27 @@
+package LoopStatement;
+
+public class WhileNumberPlayer {
+private int n;
+
+public WhileNumberPlayer(int n) {
+	this.n=n;
+}
+public void printSquareUptoLimit() {
+	int i=1;
+	while (i * i <= n) {
+		System.out.print(i*i + " ");
+		i++;
+	}
+	System.out.println();
+}
+
+public void printCubeUptoLimit() {
+	int i = 1;
+	while (i * i * i <= n) {
+		System.out.print(i * i * i + " ");
+		i++;
+	}
+	System.out.println();
+}
+
+}

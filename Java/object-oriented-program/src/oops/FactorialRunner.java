@@ -1,0 +1,13 @@
+package oops;
+
+import java.util.Scanner;
+public class FactorialRunner {
+	public static void main(String args[]) {
+		Scanner scanner = new Scanner(System.in);
+		int number;
+		System.out.print("Enter Number: ");
+		number = scanner.nextInt();
+		Factorial factorial = new Factorial(number);
+		System.out.printf("Factorial of %d is %d", number, factorial.factorialIs()).println();
+	}
+}

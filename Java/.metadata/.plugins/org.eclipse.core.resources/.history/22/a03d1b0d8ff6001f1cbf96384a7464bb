@@ -1,0 +1,11 @@
+package oops;
+
+public class Book {
+	private int noOfCopies;
+	void setNoOfCopies(int set) {
+		this.noOfCopies =set;
+	}
+	void openBook() {
+		System.out.println(noOfCopies);
+	}
+}

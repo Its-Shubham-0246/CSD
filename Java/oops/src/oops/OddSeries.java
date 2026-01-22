@@ -1,0 +1,15 @@
+package oops;
+
+public class OddSeries {
+	int n;
+
+	public OddSeries(int n) {
+		this.n = n;
+	}
+
+	public void printOddSeries() {
+		for (int i = 1; i <= n; i += 2) {
+			System.out.printf("%d ", i);
+		}
+	}
+}
